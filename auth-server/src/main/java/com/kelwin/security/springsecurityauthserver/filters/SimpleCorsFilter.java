@@ -1,4 +1,4 @@
-package com.kelwin.security.springsecurityauthserver.config;
+package com.kelwin.security.springsecurityauthserver.filters;
 
 import java.io.IOException;
 

@@ -2,7 +2,8 @@ package com.kelwin.security.springsecurityauthserver.service;
 
 import com.kelwin.security.springsecurityauthserver.model.MyUserDetails;
 import com.kelwin.security.springsecurityauthserver.model.Users;
-import com.kelwin.security.springsecurityauthserver.model.UsersRepository;
+import com.kelwin.security.springsecurityauthserver.repository.UsersRepository;
+
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

@@ -16,7 +16,7 @@ import com.kelwin.security.springsecurityauthserver.model.Item;
 
 @RestController
 @RequestMapping("/api/secure")
-public class HelloResource {
+public class CustomerController {
 	
 	@Autowired
 	CustomerService customerService;
